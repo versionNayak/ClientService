@@ -1,0 +1,202 @@
+[ {
+  "question" : "What is your current age",
+  "answers" : [ {
+    "answer" : "30 or less",
+    "score" : 9
+  }, {
+    "answer" : "31-40",
+    "score" : 7
+  }, {
+    "answer" : "41-50",
+    "score" : 5
+  }, {
+    "answer" : "51-60",
+    "score" : 3
+  }, {
+    "answer" : "above 60",
+    "score" : 0
+  } ]
+}, {
+  "question" : "Your current annual take home income is  ",
+  "answers" : [ {
+    "answer" : "less than 2 lac",
+    "score" : 1
+  }, {
+    "answer" : "2 lac to 5 lac",
+    "score" : 3
+  }, {
+    "answer" : "5 lac to 10 lac",
+    "score" : 5
+  }, {
+    "answer" : "10 lac to 15 lac",
+    "score" : 7
+  }, {
+    "answer" : "greater than 15 lac",
+    "score" : 9
+  } ]
+}, {
+  "question" : "You are financially responsible for (exclude dependents who can be supported by your spouse's income)",
+  "answers" : [ {
+    "answer" : "only yourself",
+    "score" : 9
+  }, {
+    "answer" : "1 other person besides yourself",
+    "score" : 9
+  }, {
+    "answer" : "between 2 and 3 persons besides yourself",
+    "score" : 5
+  }, {
+    "answer" : "between 4 and 5 persons besides yourself",
+    "score" : 3
+  }, {
+    "answer" : "more than 5 persons besides yourself",
+    "score" : 0
+  } ]
+}, {
+  "question" : "What % of your income goes towards servicing your EMI",
+  "answers" : [ {
+    "answer" : "under 25%",
+    "score" : 9
+  }, {
+    "answer" : "25%-40%",
+    "score" : 7
+  }, {
+    "answer" : "41%-60%",
+    "score" : 5
+  }, {
+    "answer" : "61%-75%",
+    "score" : 3
+  }, {
+    "answer" : "over 75%",
+    "score" : 1
+  } ]
+}, {
+  "question" : "What is your annual savings in percentage (Savings/total income)",
+  "answers" : [ {
+    "answer" : "0",
+    "score" : 1
+  }, {
+    "answer" : "less than 10%",
+    "score" : 3
+  }, {
+    "answer" : "10% - 20%",
+    "score" : 5
+  }, {
+    "answer" : "20% - 30%",
+    "score" : 7
+  }, {
+    "answer" : "more than 30%",
+    "score" : 9
+  } ]
+}, {
+  "question" : "Approximately what % of your existing investments are in Equity and Alternatives (e.g. real estate, gold etc. not for personal use)",
+  "answers" : [ {
+    "answer" : "less than 10%",
+    "score" : 1
+  }, {
+    "answer" : "10% to 30%",
+    "score" : 3
+  }, {
+    "answer" : "30% to 50%",
+    "score" : 5
+  }, {
+    "answer" : "50% to 75%",
+    "score" : 7
+  }, {
+    "answer" : "80% to 100%",
+    "score" : 9
+  } ]
+}, {
+  "question" : "For how long have you been investing, not counting your residential house or savings account deposits",
+  "answers" : [ {
+    "answer" : "3 years or more",
+    "score" : 5
+  }, {
+    "answer" : "upto 3 years",
+    "score" : 3
+  }, {
+    "answer" : "This will be my first investment",
+    "score" : 1
+  } ]
+}, {
+  "question" : "Which one of the following statements describes your feelings towards choosing an investment?",
+  "answers" : [ {
+    "answer" : "I would prefer investments with little or no fluctuation in value and have a low degree of risk associated with them. I am willing to accept the lower return associated with these investments.",
+    "score" : 1
+  }, {
+    "answer" : "I prefer to diversify with a mix of investments that have an emphasis on low risk.  I am happy to have a small proportion of the portfolio invested in assets that have a higher degree of risk in order to achieve a slightly higher return.  I am prepared to accept a negative investment return of 1 in 10 years",
+    "score" : 3
+  }, {
+    "answer" : "I prefer to have a spread of investments in a balanced portfolio.  I am happy to have a negative return of 1 in 7 years.",
+    "score" : 5
+  }, {
+    "answer" : "I prefer to diversify my investments with an emphasis on more investments that is goahave higher returns, but still having a small amount of low risk investments.  I am happy to accept a negative return of 1 in 5 years.",
+    "score" : 7
+  }, {
+    "answer" : "I would select investments that have a higher degree of investment price fluctuation so that I can earn higher long term returns.  I am happy to accept a negative return of 1 in 3 years in order to achieve this goal.",
+    "score" : 9
+  } ]
+}, {
+  "question" : "How will you react if there is a stock market decline (negative return)",
+  "answers" : [ {
+    "answer" : "I will sell everything",
+    "score" : 1
+  }, {
+    "answer" : "I will sell a portion of it",
+    "score" : 3
+  }, {
+    "answer" : "I will neither buy nor sell",
+    "score" : 5
+  }, {
+    "answer" : "I will buy some more",
+    "score" : 7
+  }, {
+    "answer" : "I will buy as much as I can",
+    "score" : 9
+  } ]
+}, {
+  "question" : "The table below shows the highest one year gain and highest one year loss on five different hypothetical investments of Rs100,000. Given the potential gain or loss in any one year, where would you invest your money?",
+  "answers" : [ {
+    "answer" : " Invest in Portfolio A Portfolio A Highest Gain 11600 Highest Loss 2100",
+    "score" : 1
+  }, {
+    "answer" : "Invest in Portfolio B Portfolio B Highest Gain 14800 Highest Loss 3900",
+    "score" : 3
+  }, {
+    "answer" : "Invest in Portfolio C Portfolio C Highest Gain 20500 Highest Loss 7700",
+    "score" : 5
+  }, {
+    "answer" : "Invest in Portfolio D Portfolio D Highest Gain 26800 Highest Loss 12100",
+    "score" : 7
+  }, {
+    "answer" : "Invest in Portfolio E Portfolio E Highest Gain 31500 Highest Loss 15400",
+    "score" : 9
+  } ]
+}, {
+  "question" : "Which of the following statements would best describe your level of knowledge as an investor",
+  "answers" : [ {
+    "answer" : "I don't understand investment terminology at all",
+    "score" : 0
+  }, {
+    "answer" : "I am a proficient investor who's able to explain concepts such as EVA, beta and hedging",
+    "score" : 9
+  }, {
+    "answer" : "I know how to identify and invest in mutual funds and secondary market debentures",
+    "score" : 5
+  }, {
+    "answer" : "I understand investment principles and trade shares in the secondary market",
+    "score" : 7
+  }, {
+    "answer" : "I am not very familiar with investment options and financial planning",
+    "score" : 1
+  } ]
+}, {
+  "question" : "Have you opted for financial planning before",
+  "answers" : [ {
+    "answer" : "Yes",
+    "score" : 4
+  }, {
+    "answer" : "No",
+    "score" : 1
+  } ]
+} ]

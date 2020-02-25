@@ -1,0 +1,18 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ns="http://bsestarmfdemo.bseindia.com/2016/01/">
+   <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:To>http://bsestarmfdemo.bseindia.com/MFUploadService/MFUploadService.svc/Basic</wsa:To>
+		<wsa:Action>http://bsestarmfdemo.bseindia.com/2016/01/IMFUploadService/MFAPI</wsa:Action>
+	</soap:Header>
+   <soap:Body>
+      <ns:MFAPI>
+         <!--Optional:-->
+         <ns:Flag></ns:Flag>
+         <!--Optional:-->
+         <ns:UserId></ns:UserId>
+         <!--Optional:-->
+         <ns:EncryptedPassword></ns:EncryptedPassword>
+         <!--Optional:-->
+         <ns:param></ns:param>
+      </ns:MFAPI>
+   </soap:Body>
+</soap:Envelope>

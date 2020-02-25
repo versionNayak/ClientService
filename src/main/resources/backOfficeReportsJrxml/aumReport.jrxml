@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" pageWidth="750" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="0" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="15eba229-ec68-4b46-8842-d05733d52408">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="70"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue()%2==0)]]></conditionExpression>
+			<style backcolor="#EFF7FF"/>
+		</conditionalStyle>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+		<conditionalStyle>
+			<conditionExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue()%2==0)]]></conditionExpression>
+			<style backcolor="#EFF7FF"/>
+		</conditionalStyle>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="AumDataSet" uuid="63534238-44d6-4d2e-a290-cee0a057ba7c">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="fundName" class="java.lang.String"/>
+		<field name="folioNo" class="java.lang.String"/>
+		<field name="schemeName" class="java.lang.String"/>
+		<field name="units" class="java.lang.String"/>
+		<field name="currentNav" class="java.lang.String"/>
+		<field name="currentValue" class="java.lang.String"/>
+		<field name="clientDetails" class="java.lang.String"/>
+		<field name="total" class="java.lang.String"/>
+		<group name="clientDetailsGroup">
+			<groupExpression><![CDATA[$F{clientDetails}]]></groupExpression>
+		</group>
+	</subDataset>
+	<parameter name="logo" class="java.awt.Image" isForPrompting="false"/>
+	<parameter name="distributorName" class="java.lang.String"/>
+	<parameter name="distributorEmail" class="java.lang.String"/>
+	<parameter name="distributorMobile" class="java.lang.String"/>
+	<parameter name="asOnDate" class="java.lang.String"/>
+	<parameter name="clientName" class="java.lang.String"/>
+	<parameter name="pan" class="java.lang.String"/>
+	<parameter name="familyName" class="java.lang.String"/>
+	<parameter name="emailAddress" class="java.lang.String"/>
+	<parameter name="mobileNo" class="java.lang.String"/>
+	<parameter name="AumDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="88" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="180" height="20" uuid="971a4eac-83fa-42a7-aad6-da9c934861b0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{clientName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="180" height="20" uuid="acdaf501-452c-42e8-9996-d5e77e3df9f7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PAN: " + $P{pan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="40" width="180" height="20" uuid="742baaa1-3a13-48c2-94d5-64f5a9a3dd9a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{emailAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="60" width="180" height="20" uuid="d32a3587-6e0c-473e-9fd4-86ad48d7157b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mobileNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="0" width="252" height="20" uuid="368bae58-dd72-476d-9b1d-6a3f83ae0f78"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{distributorName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="20" width="252" height="20" uuid="86d3e8a0-338b-4b69-a3af-17f65e5b06b6"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{distributorEmail}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="40" width="252" height="20" uuid="b4b254c9-bf48-43c2-98cc-820c8529ce90"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{distributorMobile}]]></textFieldExpression>
+			</textField>
+			<image isLazy="true">
+				<reportElement x="600" y="0" width="108" height="50" uuid="da02dc87-7cd0-42b4-9e99-09f5c2ddbb3a"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="46" splitType="Stretch">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+			<staticText>
+				<reportElement x="70" y="0" width="572" height="20" forecolor="#000000" uuid="22945f5d-a07a-4381-bf51-c605c09929c8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[AUM Analysis]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="275" y="20" width="175" height="20" uuid="db8f8ed0-cb15-46b4-a9fd-c45d1eae83c8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["As on date : " + $P{asOnDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="123" splitType="Stretch">
+			<staticText>
+				<reportElement x="9" y="39" width="685" height="35" forecolor="#FF0022" uuid="ff8a82ab-c00f-422a-a907-06d4021b87bd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No Data Found]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 2" style="table 2" x="20" y="5" width="685" height="110" uuid="4a3a5430-5124-4f6e-9b2c-b65e0f93bba9">
+					<property name="net.sf.jasperreports.export.headertoolbar.table.name" value=""/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="AumDataSet" uuid="96c2edd6-8618-431f-85ce-e4ca5cbb9afe">
+						<dataSourceExpression><![CDATA[$P{AumDataSource}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:columnGroup width="685" uuid="1b2e36c1-0c14-48a0-97b8-66fa4330a71a">
+						<jr:groupHeader groupName="clientDetailsGroup">
+							<jr:cell style="table 2_CH" height="30" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="685" height="30" isPrintWhenDetailOverflows="true" uuid="a1d8a273-e5ef-4f89-ad09-27184125c881"/>
+									<textElement verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{clientDetails}]]></textFieldExpression>
+								</textField>
+							</jr:cell>
+						</jr:groupHeader>
+						<jr:groupFooter groupName="clientDetailsGroup">
+							<jr:cell style="table 2_TD" height="30" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="685" height="30" isPrintWhenDetailOverflows="true" uuid="a1d9a273-e5ef-4f89-ad09-27184125c881"/>
+									<textElement textAlignment="Left" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA["Total : " + $F{total}]]></textFieldExpression>
+								</textField>
+							</jr:cell>
+						</jr:groupFooter>
+						<jr:column width="90" uuid="d30bda57-7d4c-4f26-ad2f-36136f52c9a9">
+							<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" isPrintWhenDetailOverflows="true" uuid="996316a4-d48a-4fcd-a88b-e32d1aab2593"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+									</textElement>
+									<text><![CDATA[Fund]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="table 2_TD" height="20" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="90" height="20" uuid="a00dc678-c0bd-4aa0-a03d-0d9249f904c1"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{fundName}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="90" uuid="9fb3400e-65fd-4ed5-9c74-a85fbf3bcdd1">
+							<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="90" height="30" isPrintWhenDetailOverflows="true" uuid="d909f287-6d85-43a5-8539-542d1135293b"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+									</textElement>
+									<text><![CDATA[Folio]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="table 2_TD" height="20" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="90" height="20" uuid="5f282424-b1a8-4741-bbfd-435d39db7e07"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{folioNo}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="250" uuid="db083c50-2676-4d29-a320-c88b97d22f02">
+							<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="250" height="30" isPrintWhenDetailOverflows="true" uuid="2e1ea6c4-fa9a-4328-9981-734a51dafab6"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+									</textElement>
+									<text><![CDATA[Scheme]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="table 2_TD" height="20" rowSpan="1">
+								<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="250" height="20" uuid="85d26cd1-1dba-460e-a72f-209855b3586c"/>
+									<textElement textAlignment="Left" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{schemeName}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="80" uuid="2a923e11-6b0a-4e09-8960-b9990c105b0f">
+							<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="80" height="30" isPrintWhenDetailOverflows="true" uuid="ce67e07e-55e3-411d-9c80-6688e11a8430"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+									</textElement>
+									<text><![CDATA[Current Units]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="table 2_TD" height="20" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="80" height="20" uuid="489befbb-962f-4a32-b7a5-a58c6fed2920"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{units}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="82" uuid="6d00fbf9-3dd8-44d5-b29f-0d8c5b74cb29">
+							<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="82" height="30" uuid="706555eb-6311-42af-aa65-d867856c8c5b"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+									</textElement>
+									<text><![CDATA[NAV]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="table 2_TD" height="20" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="82" height="20" uuid="ab7987dd-9d4c-4d35-b745-aebff40b613a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{currentNav}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="93" uuid="b6e44ec3-1548-4232-8223-34b8a1c8ee36">
+							<jr:columnHeader style="table 2_CH" height="30" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="93" height="30" isPrintWhenDetailOverflows="true" uuid="a46d1560-fe6b-42f2-9c2a-eb1acbfb4877"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8" isBold="true" pdfFontName="Helvetica-Bold" isPdfEmbedded="true"/>
+									</textElement>
+									<text><![CDATA[Current Value]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="table 2_TD" height="20" rowSpan="1">
+								<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+									<reportElement x="0" y="0" width="93" height="20" uuid="f21614c6-7d25-44a6-ab0a-fefb0a467920"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="8"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{currentValue}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="24" splitType="Stretch">
+			<textField>
+				<reportElement x="570" y="0" width="80" height="20" uuid="14bad2ac-3a56-4cf4-b4dd-310b8fcd2120"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["${CURRENT_PAGE_NUMBER}"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="650" y="0" width="40" height="20" uuid="06567ba6-6243-43e9-9813-f6593528524c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["${TOTAL_PAGE_NUMBER}"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="24" splitType="Stretch">
+			<staticText>
+				<reportElement x="80" y="0" width="572" height="18" uuid="444de8e9-c19f-4144-a66c-692055b7583f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isItalic="true" pdfFontName="Helvetica-Oblique" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[AUM Analysis Report Completed]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

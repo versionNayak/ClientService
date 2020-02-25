@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="transactionReportNew" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6d054202-4864-448f-a04b-925c33731e14">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="logo" class="java.awt.Image"/>
+	<parameter name="totalMonthlyInflow" class="java.lang.String"/>
+	<parameter name="totalMonthlyOutflow" class="java.lang.String"/>
+	<parameter name="netMonthlyInflow" class="java.lang.String"/>
+	<parameter name="jasperReportTransactionInflow" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="jasperReportTransactionOutflow" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="TransInflowDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="TransOutflowDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="168" splitType="Stretch">
+			<staticText>
+				<reportElement x="90" y="0" width="340" height="10" uuid="22945f5d-a07a-4381-bf51-c605c09929c8"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Transaction Summary Report]]></text>
+			</staticText>
+			<frame>
+				<reportElement mode="Opaque" x="190" y="20" width="200" height="20" backcolor="#D8BFD8" uuid="b8e3ff82-de46-4a0f-afd5-41abf9fab0d1">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</frame>
+			<staticText>
+				<reportElement x="195" y="50" width="74" height="30" backcolor="#000000" uuid="060989a0-d584-41a4-8e01-5f63bd44eec2"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Total Monthly Inflow]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="195" y="90" width="72" height="20" uuid="19cc0d73-0bdb-42cf-a9ee-a063e6ab82b7"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Total Monthly Outflow]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="120" width="56" height="20" uuid="23978ef9-568e-4363-95e7-1322225ff7d8"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Net Monthly Inflow]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="280" y="50" width="71" height="30" uuid="8c36c4d2-2078-481e-9e71-6868dbbf9072"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{totalMonthlyInflow}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="85" width="71" height="30" uuid="734c19b5-8a50-4f86-be81-959e3301b4b2"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{totalMonthlyOutflow}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="128" width="71" height="20" uuid="e5996563-aeff-416f-9d9a-4c285470b54d"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{netMonthlyInflow}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="190" y="40" width="197" height="110" uuid="fce07cf6-ca96-4518-b50e-6a4b1a832b0a"/>
+			</rectangle>
+			<line>
+				<reportElement x="195" y="80" width="193" height="1" uuid="05bee230-00a9-4440-b8cd-249d7e338604"/>
+			</line>
+			<line>
+				<reportElement x="195" y="115" width="193" height="1" uuid="4b7d91d0-f643-4625-9f97-bf3cd6727f98"/>
+			</line>
+			<line>
+				<reportElement x="268" y="46" width="1" height="37" uuid="e0a65341-8f00-41ff-b53b-badbf466e193"/>
+			</line>
+			<line>
+				<reportElement x="268" y="82" width="1" height="35" uuid="e0a65341-8f00-41ff-b53b-badbf466e193"/>
+			</line>
+			<line>
+				<reportElement x="268" y="117" width="1" height="30" uuid="e0a65341-8f00-41ff-b53b-badbf466e193"/>
+			</line>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="129" splitType="Stretch">
+			<subreport>
+				<reportElement x="0" y="40" width="550" height="60" uuid="8a52a87b-e059-430b-9a10-a8f388a7eb91"/>
+				<subreportParameter name="TransInflowDataSource2">
+					<subreportParameterExpression><![CDATA[$P{TransInflowDataSource}]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[$P{TransInflowDataSource}]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{jasperReportTransactionInflow}]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="100" splitType="Stretch">
+			<subreport>
+				<reportElement x="2" y="30" width="550" height="60" uuid="a9cd5b09-caee-45d5-9835-84e6c338b7b9"/>
+				<subreportParameter name="TransOutflowDataSource2">
+					<subreportParameterExpression><![CDATA[$P{TransOutflowDataSource}]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[$P{TransOutflowDataSource}]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{jasperReportTransactionOutflow}]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement x="420" y="0" width="80" height="20" uuid="14bad2ac-3a56-4cf4-b4dd-310b8fcd2120"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["${CURRENT_PAGE_NUMBER}"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="505" y="0" width="40" height="20" uuid="06567ba6-6243-43e9-9813-f6593528524c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["${TOTAL_PAGE_NUMBER}"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

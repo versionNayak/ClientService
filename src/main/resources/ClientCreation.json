@@ -1,0 +1,609 @@
+{
+  "clientMaster": [
+    {
+      "lastName": "Trivedi",
+      "riskProfileScore": "6",
+      "gender": "M",
+      "retiredFlag": "N",
+     
+      "currDesignation": "",
+      "countryOfResidence": "99",
+      
+     
+      "lifeExpectancy": "0",
+     
+     
+      "residentType": "1",
+      
+      
+      "otherEmploymentType": "",
+      "activeFlag": "Y",
+     
+      "retirementAge": "55",
+      "orgName": "",
+      "employmentType": "",
+      "olderRiskProfile": "0",
+      "birthDate": "1985-06-25",
+      "otherResidentType": "",
+      "firstName": "Piyush",
+     
+      "middleName": "",
+      "otherEduQualification": "",
+      "salutation": "Mr",
+      "maritalStatus": "2",
+      "otherMaritalStatus": ""
+      
+    }
+  ],
+  "clientContact": [
+    {
+      "correspondenceCity": "",
+    
+      "officeState": "",
+      "lookupOfficeCountryName": "",
+      "correspondencePincode": "0",
+     
+      "countryCode": "91",
+      "correspondenceAddressLine1": "",
+     
+      
+      "correspondenceAddressLine3": "",
+      "correspondenceAddressLine2": "",
+      "alternateEmail": "",
+      "officeCity": "",
+      "officePincode": "0",
+      "lookupCorrespondenceCountryName": "",
+      "permanentState": "MAHARASHTRA",
+      
+      "permanentAddressLine1": "Bandra",
+      "lookupPermanentCountryName": "99",
+      "phone": "",
+    
+      "officeAddressLine2": "",
+      "officeAddressLine3": "",
+      "officeAddressLine1": "",
+      "permanentCity": "Mumbai",
+      "permanentAddressLine2": "",
+      "permanentAddressLine3": "",
+      "permanentPincode": "400051",
+      "correspondenceState": ""
+    }
+  ],
+  "clientFamilyMember": [
+    {
+      "lastName": "Trivedi",
+      "retirementAge": "",
+      "retiredFlag": "N",
+      "relationID": "1",
+      
+      "birthDate": "1988-01-01",
+      "isProperBMI": "Y",
+      "hasNormalBP": "Y",
+      "firstName": "Pinky",
+	  
+      "lifeExpectancy": "75",
+      "dependentFlag": "Y",
+      "otherRelation": "",
+      "hasDiseaseHistory": "Y",
+      
+      "aadhar": "",
+      "isTobaccoUser": "N",
+      "middleName": "",
+      "pan": ""
+    },
+    {
+      "lastName": "Trivedi",
+      "retirementAge": "55",
+      "retiredFlag": "N",
+      "relationID": "0",
+     
+      "birthDate": "1985-06-25",
+      "isProperBMI": "Y",
+      "hasNormalBP": "Y",
+      "firstName": "Piyush",
+	  
+      "lifeExpectancy": "77",
+      "dependentFlag": "N",
+      "otherRelation": "",
+      "hasDiseaseHistory": "Y",
+      
+      "aadhar": "123412341299",
+      "isTobaccoUser": "Y",
+      "middleName": "",
+      "pan": "ADDPP1234A"
+    }
+  ],
+  "clientFamilyIncome": [
+    {
+      "incomeType": "1",
+      "referenceMonth": "13",
+      
+      "incomeAmount": "100000.00",
+   
+      "incomeEndYear": "2",
+    
+      "incomeFrequency": "12"
+    },
+    {
+     
+      "incomeType": "2",
+      "referenceMonth": "13",
+     
+      "incomeAmount": "25000.00",
+    
+      "incomeEndYear": "2",
+   
+      "incomeFrequency": "12"
+    }
+  ],
+  "clientExpense": [
+    {
+      "expenseType": "1",
+      "expenseAmount": "10000.00",
+     
+      "frequency": "12",
+      "referenceMonth": "13",
+     
+    
+     
+      "endYear": "3"
+    },
+    {
+      "expenseType": "5",
+      "expenseAmount": "14000.00",
+     
+      "frequency": "12",
+      "referenceMonth": "13",
+      
+    
+      "endYear": "3"
+    },
+    {
+      "expenseType": "11",
+      "expenseAmount": "10000.00",
+     
+      "frequency": "12",
+      "referenceMonth": "13",
+      
+   
+     
+      "endYear": "3"
+    }
+  ],
+  "clientGoal": [
+    {
+      "lookupGoalCorpusUtilizationFrequencyId": "4",
+      "lookupGoalTypeId": "6",
+      "expectedReturnOnCorpus": "",
+      "loanInterestRate": "",
+
+      "yearsToGoal": "2",
+      "estimatedCostOfGoal": "200000.00",
+      "loanRequiredFlag": "N",
+      "description": "international vacation",
+      "recurringFlag": "Y",
+      "expectedInflationRate": "6.0000",
+      "priority": "1",
+     
+      "postRetirementAnnualExpense": "",
+     
+      "startMonthYear": "2022-03-01",
+     
+     
+      "loanPercent": "",
+     
+      "loanTenure": "",
+      "postRetirementExpectedPayoutFrequency": ""
+     
+    },
+    {
+      "lookupGoalCorpusUtilizationFrequencyId": "5",
+      "lookupGoalTypeId": "5",
+      "expectedReturnOnCorpus": "",
+      "loanInterestRate": "",
+     
+      "yearsToGoal": "1",
+      "estimatedCostOfGoal": "500000.00",
+      "loanRequiredFlag": "N",
+      "description": "Jewellery",
+      "recurringFlag": "N",
+      "expectedInflationRate": "6.0000",
+      "priority": "2",
+     
+      "postRetirementAnnualExpense": "",
+     
+      "startMonthYear": "2020-12-01",
+     
+     
+      "loanPercent": "",
+     
+      "loanTenure": "",
+      "postRetirementExpectedPayoutFrequency": ""
+     
+    },
+    {
+      "lookupGoalCorpusUtilizationFrequencyId": "1",
+      "lookupGoalTypeId": "8",
+      "expectedReturnOnCorpus": "",
+      "loanInterestRate": "",
+      
+      "yearsToGoal": "",
+      "estimatedCostOfGoal": "0.00",
+      "loanRequiredFlag": "N",
+      "description": "Retirement Goal",
+      "recurringFlag": "Y",
+      "expectedInflationRate": "6.0000",
+      "priority": "3",
+      
+      "postRetirementAnnualExpense": "408000.00",
+      
+      "startMonthYear": "2040-06-01",
+     
+     
+      "loanPercent": "",
+      
+      "loanTenure": "",
+      "postRetirementExpectedPayoutFrequency": "4"
+      
+    }
+  ],
+  "clientNonLifeInsurance": [
+    {
+      "premiumAmount": "4000.00",
+      
+      "otherPolicyType": "",
+      "policyName": "CI",
+      "insuranceTypeID": "3",
+      "policyNumber": "1",
+      "policyEndDate": "2019-03-31",
+      "policyStartDate": "2018-04-01",
+    
+     
+      "sumInsured": "500000.00",
+     
+     
+      "coverFlag": "I",
+      "companyNameID": "4",
+      
+      "insurancePolicyTypeID": "14"
+    },
+    {
+      "premiumAmount": "5000.00",
+      
+      "otherPolicyType": "",
+      "policyName": "Mediclaim",
+      "insuranceTypeID": "3",
+      "policyNumber": "2",
+      "policyEndDate": "2019-03-31",
+      "policyStartDate": "2018-04-01",
+     
+      "sumInsured": "500000.00",
+     
+     
+      "coverFlag": "F",
+      "companyNameID": "11",
+     
+      "insurancePolicyTypeID": "13"
+    }
+  ],
+  "clientLifeInsurance": [
+    {
+      "premiumAmount": "15000.00",
+      "lockedUptoDate": "",
+      
+      "currentUnitBalance": "",
+      "otherPolicyType": "",
+      "policyName": "Term plan",
+      "policyNumber": "1",
+      "premiumTenure": "15",
+      "policyStartDate": "2017-04-01",
+      
+      "policyTenure": "15",
+      "sumInsured": "10000000.00",
+      
+     
+     
+      "companyNameID": "4",
+    
+      "insurancePolicyTypeID": "1",
+      "premiumFrequency": "1"
+    }
+  ],
+  "clientLoan": [
+    {
+      "interestRate": "0.08000",
+     
+      "loanType": "1",
+      "loanStartDate": "2015-01-01",
+      "otherLoanCategory": "",
+      "loanCategoryId": "1",
+     
+      
+      "loanAmount": "1500000.00",
+      "interestPaymentFrequency": "0",
+     
+      "emiAmount": "14334.78",
+     
+      "pendingInstalments": "0",
+      "loanDescription": "Home loan",
+     
+      "loanTenure": "15",
+     
+      "loanOriginalFlag": "Y",
+      "loanProviderName": "",
+      "emiLoanProviderName": "ICICI Bank",
+      "loanEndDate": "2030-01-01"
+    },
+    {
+      "interestRate": "0.08000",
+      
+      "loanType": "1",
+      "loanStartDate": "2018-04-05",
+      "otherLoanCategory": "",
+      "loanCategoryId": "2",
+      
+      
+      "loanAmount": "500000.00",
+      "interestPaymentFrequency": "0",
+     
+      "emiAmount": "8000.00",
+     
+      "pendingInstalments": "82",
+      "loanDescription": "Car loan",
+     
+      "loanTenure": "0",
+     
+      "loanOriginalFlag": "N",
+      "loanProviderName": "",
+      "emiLoanProviderName": "ICICI Bank",
+      "loanEndDate": "2025-02-05"
+    },
+    {
+      "interestRate": "0.09000",
+     
+      "loanType": "2",
+      "loanStartDate": "2016-11-01",
+      "otherLoanCategory": "",
+      "loanCategoryId": "3",
+     
+     
+      "loanAmount": "300000.00",
+      "interestPaymentFrequency": "12",
+      
+      "emiAmount": "",
+     
+      "pendingInstalments": "0",
+      "loanDescription": "For rennovation",
+      
+      "loanTenure": "36",
+     
+      "loanOriginalFlag": "Y",
+      "loanProviderName": "",
+      "emiLoanProviderName": "ICICI Bank",
+      "loanEndDate": "2019-11-01"
+    }
+  ],
+  "clientMutualFund": [
+    {
+    
+      "sipFrequency": "0",
+      "mfLumpsumLockedInDate": "",
+      "investmentAmount": "100000.00",
+      "subAssetID": "",
+      "closeEndedFlag": "N",
+      "pmsProvider": "",
+      "lumpsumUnitsPurchased": "301",
+      
+      "investmentModeID": "1",
+      "sipInstalments": "0",
+    
+      "fundTypeID": "19",
+      "currentMarketValue": "",
+      
+      "fundCategoryID": "3",
+     
+      "investmentStartDate": "2016-01-01",
+      "schemeNamePMS": "",
+      "isin": "INF179K01YV8"
+    }
+  ],
+  "clientEquity": [
+    {
+      "purchaseDate": "2016-01-01",
+     
+      "quantity": "100",
+      "investmentAmount": "100000.00",
+      "unlistedStockNameText": "",
+      "listedFlag": "Y",
+      "financialAssetType": "15",
+      "esopVestingDate": "",
+     
+      "isin": "INE012A01025",
+     
+      "currentMarketValue": "162580.00"
+      
+     
+    }
+  ],
+  "clientFixedIncome": [
+    {
+      "amount": "400000.00",
+    
+      "bondCurrentYield": "",
+      "recurringDepositFrequency": "",
+      "bondFaceValue": "",
+      "financialAssetType": "22",
+      "bankIssuerName": "Allahabad Bank",
+      
+      "tenureRDMonths": "0",
+      "bondPurchased": "0",
+     
+      "tenureYearsDays": "Y",
+      
+      "maturityDate": "2021-04-01",
+      "interestCouponRate": "0.09000",
+      "bondType": "",
+      "payoutFrequency": "",
+     
+      "fixedDepositType": "1",
+      "tenure": "4",
+      "investmentDepositDate": "2017-04-01",
+      "compoundingFrequency": "4"
+    }
+  ],
+  "clientPPF": [
+    {
+    
+     
+      "amountDepositFrequencyExt": "0",
+      "extensionInterestRate": "7.80",
+      
+      "maturityDate": "2032-03-31",
+      "amountDepositFrequency": "1",
+    
+      
+      "plannedDepositAmount": "100000.00",
+      "compoundingFrequency": "1",
+      "interestRate": "8.00000",
+      "extensionFlag": "N",
+      "extensionCurrentBalance": "",
+      "extensionStartDate": "2018-02-02",
+      "currentBalance": "0.01",
+      "extTypeFlag": "Y",
+      "financialAssetType": "12",
+
+      "depositAmountExt": "",
+      "extensionTenure": "5",
+     
+      "ppfTenure": "15",
+      "startDate": "2017-02-01",
+      "extensionCompoundingFrequency": "1"
+    }
+  ],
+  "clientRealEstate": [
+    {
+     
+      "rentalIncome": "",
+      "lienReleaseDate": "",
+      "description": "Land",
+      "financialAssetType": "5",
+     
+      "assetTypeId": "2",
+      "investmentDate": "2015-01-01",
+      "lienMarked": "2",
+      "rentalFrequency": "",
+      "investmentValue": "1000000.00",
+     
+     
+     
+      "currentValue": "2500000.00"
+    }
+  ],
+  "clientSmallSaving": [
+    {
+      "interestRate": "0.07800",
+      "interestPayoutFrequency": "12",
+     
+      "kvpTenureYear": "0",
+      "investmentAmount": "100000.00",
+      "kvpTenureMonth": "0",
+      "financialAssetType": "30",
+     
+      "maturityTenure": "0",
+      
+      "depositFrequency": "",
+      
+      "maturityDate": "2021-04-01",
+      "depositTenure": "5",
+     
+     
+      "startDate": "2016-04-01",
+      "compoundingFrequency": ""
+    }
+  ],
+  "clientCash": [
+    {
+    
+      "bankID": "15",
+    
+    
+      "currentBalance": "200000.00",
+     
+      "cashBalanceTypeId": "35"
+     
+    }
+  ],
+  "clientLumpsumInflow": [
+    {
+      "expectedInflowDate": "2019-06-18",
+      
+      "inflowDesc": "handloan",
+     
+      "expectedInflow": "200000.00"
+     
+    }
+  ],
+  "clientRiskProfileResponse": [
+    {
+ 	
+      "responseID": "2",
+      "activeFlag": "Y"
+    },
+    {
+  	
+      "responseID": "4",
+      "activeFlag": "Y"
+    },
+    {
+ 	  
+      "responseID": "2",
+      "activeFlag": "Y"
+    },
+    {
+    
+      "responseID": "2",
+      "activeFlag": "Y"
+    },
+    {
+	
+      "responseID": "2",
+      "activeFlag": "Y"
+    },
+    {
+
+      "responseID": "3",
+      "activeFlag": "Y"
+    },
+    {
+
+      "responseID": "2",
+      "activeFlag": "Y"
+    },
+    {
+
+      "responseID": "3",
+      "activeFlag": "Y"
+    },
+    {
+
+      "responseID": "4",
+      "activeFlag": "Y"
+    },
+    {
+	
+      "responseID": "3",
+      "activeFlag": "Y"
+    },
+    {
+ 
+      "responseID": "4",
+      "activeFlag": "Y"
+    },
+    {
+    
+      "responseID": "2",
+      "activeFlag": "Y"
+    }
+  ]
+  
+}

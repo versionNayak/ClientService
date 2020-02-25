@@ -1,0 +1,33 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/" xmlns:star="http://schemas.datacontract.org/2004/07/StarMFFileUploadService">
+     <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:To>http://bsestarmfdemo.bseindia.com/StarMFFileUploadService/StarMFFileUploadService.svc/Basic</wsa:To>
+		<wsa:Action>http://tempuri.org/IStarMFFileUploadService/UploadFile</wsa:Action>
+	</soap:Header>
+   <soap:Body>
+      <tem:UploadFile>
+         <!--Optional:-->
+         <tem:data>
+            <!--Optional:-->
+            <star:ClientCode>?</star:ClientCode>
+            <!--Optional:-->
+            <star:DocumentType>?</star:DocumentType>
+            <!--Optional:-->
+            <star:EncryptedPassword>?</star:EncryptedPassword>
+            <!--Optional:-->
+            <star:FileName>?</star:FileName>
+            <!--Optional:-->
+            <star:Filler1>?</star:Filler1>
+            <!--Optional:-->
+            <star:Filler2>?</star:Filler2>
+            <!--Optional:-->
+            <star:Flag>?</star:Flag>
+            <!--Optional:-->
+            <star:MemberCode>?</star:MemberCode>
+            <!--Optional:-->
+            <star:UserId>?</star:UserId>
+            <!--Optional:-->
+            <star:pFileBytes>cid:1396181498231</star:pFileBytes>
+         </tem:data>
+      </tem:UploadFile>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,365 @@
+
+ [
+	{
+		"schemeName": "Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan",
+		"isin": "INF209K01BF4",
+		"amfiCode": "103188",
+		"assetClassID": "2",
+		"subAssetClassID": "3",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Aditya Birla Sun Life Corporate Bond Fund",
+		"isin": "INF209KA1K47",
+		"amfiCode": "134383",
+		"assetClassID": "2",
+		"subAssetClassID": "3",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Aditya Birla Sun Life Frontline Equity Fund",
+		"isin": "INF209K01BR9",
+		"amfiCode": "103174",
+		"assetClassID": "3",
+		"subAssetClassID": "5",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Aditya Birla Sun Life Government Securities Fund",
+		"isin": "INF209K01AC3",
+		"amfiCode": "100058",
+		"assetClassID": "2",
+		"subAssetClassID": "4",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Aditya Birla Sun Life Money Manager Fund",
+		"isin": "INF209K01MJ3",
+		"amfiCode": "101971",
+		"assetClassID": "2",
+		"subAssetClassID": "2",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Axis Bluechip Fund",
+		"isin": "INF846K01164",
+		"amfiCode": "112277",
+		"assetClassID": "3",
+		"subAssetClassID": "5",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Axis Focused 25 Fund",
+		"isin": "INF846K01CH7",
+		"amfiCode": "117560",
+		"assetClassID": "3",
+		"subAssetClassID": "12",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Axis Liquid Fund",
+		"isin": "INF846K01412",
+		"amfiCode": "112210",
+		"assetClassID": "1",
+		"subAssetClassID": "1",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "DSP Midcap Fund - Regular Plan",
+		"isin": "INF740K01128",
+		"amfiCode": "104481",
+		"assetClassID": "3",
+		"subAssetClassID": "6",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Franklin India Liquid Fund - Super Institutional Plan",
+		"isin": "INF090I01BG0",
+		"amfiCode": "100546",
+		"assetClassID": "1",
+		"subAssetClassID": "1",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Franklin India Prima Fund",
+		"isin": "INF090I01809",
+		"amfiCode": "100473",
+		"assetClassID": "3",
+		"subAssetClassID": "6",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Franklin India Smaller Companies Fund",
+		"isin": "INF090I01569",
+		"amfiCode": "103360",
+		"assetClassID": "3",
+		"subAssetClassID": "13",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Franklin India Ultra Short Bond Fund - Super Institutional Plan",
+		"isin": "INF090I01CN4",
+		"amfiCode": "107249",
+		"assetClassID": "2",
+		"subAssetClassID": "2",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "HDFC Capital Builder Value Fund",
+		"isin": "INF179K01426",
+		"amfiCode": "101764",
+		"assetClassID": "3",
+		"subAssetClassID": "12",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "HDFC Mid-Cap Opportunities Fund",
+		"isin": "INF179K01CR2",
+		"amfiCode": "105758",
+		"assetClassID": "3",
+		"subAssetClassID": "6",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "HDFC Short Term Debt Fund",
+		"isin": "INF179K01CU6",
+		"amfiCode": "113047",
+		"assetClassID": "2",
+		"subAssetClassID": "3",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "HDFC Small Cap Fund - Regular Plan",
+		"isin": "INF179KA1SA9",
+		"amfiCode": "130501",
+		"assetClassID": "3",
+		"subAssetClassID": "13",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "HDFC Top 100 Fund",
+		"isin": "INF179K01BE2",
+		"amfiCode": "102000",
+		"assetClassID": "3",
+		"subAssetClassID": "5",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "ICICI Prudential Advisor Series-Debt Management Fund",
+		"isin": "INF109K01878",
+		"amfiCode": "102141",
+		"assetClassID": "2",
+		"subAssetClassID": "4",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "ICICI Prudential Bluechip Fund",
+		"isin": "INF109K01BL4",
+		"amfiCode": "108466",
+		"assetClassID": "3",
+		"subAssetClassID": "5",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "ICICI Prudential Gilt Fund",
+		"isin": "INF109K01JR4",
+		"amfiCode": "100369",
+		"assetClassID": "2",
+		"subAssetClassID": "4",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Invesco India Contra Fund",
+		"isin": "INF205K01189",
+		"amfiCode": "105460",
+		"assetClassID": "3",
+		"subAssetClassID": "12",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Invesco India Liquid Fund",
+		"isin": "INF205K01HM5",
+		"amfiCode": "104486",
+		"assetClassID": "1",
+		"subAssetClassID": "1",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Invesco India Money Market Fund",
+		"isin": "INF205K01SD1",
+		"amfiCode": "112123",
+		"assetClassID": "2",
+		"subAssetClassID": "2",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Kotak Corporate Bond Fund - Standard Plan",
+		"isin": "INF178L01BO1",
+		"amfiCode": "133782",
+		"assetClassID": "2",
+		"subAssetClassID": "3",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Kotak Emerging Equity Scheme Regular Plan",
+		"isin": "INF174K01DS9",
+		"amfiCode": "104908",
+		"assetClassID": "3",
+		"subAssetClassID": "6",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "L&T Emerging Businesses Fund",
+		"isin": "INF917K01QC7",
+		"amfiCode": "129223",
+		"assetClassID": "3",
+		"subAssetClassID": "13",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "L&T Midcap Fund",
+		"isin": "INF917K01254",
+		"amfiCode": "112496",
+		"assetClassID": "3",
+		"subAssetClassID": "6",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Mirae Asset Emerging Bluechip Fund - Regular Plan",
+		"isin": "INF769K01101",
+		"amfiCode": "112932",
+		"assetClassID": "3",
+		"subAssetClassID": "12",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Reliance Gilt Securities Fund",
+		"isin": "INF204K01BU4",
+		"amfiCode": "109720",
+		"assetClassID": "2",
+		"subAssetClassID": "4",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Reliance Large Cap Fund",
+		"isin": "INF204K01562",
+		"amfiCode": "106235",
+		"assetClassID": "3",
+		"subAssetClassID": "5",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Reliance Prime Debt Fund",
+		"isin": "INF204K01EF9",
+		"amfiCode": "100856",
+		"assetClassID": "2",
+		"subAssetClassID": "3",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Reliance Small Cap Fund",
+		"isin": "INF204K01HY3",
+		"amfiCode": "113177",
+		"assetClassID": "3",
+		"subAssetClassID": "13",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "SBI Magnum Medium Duration Fund",
+		"isin": "INF200K01719",
+		"amfiCode": "102053",
+		"assetClassID": "2",
+		"subAssetClassID": "4",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "SBI Magnum Ultra Short Duration Fund",
+		"isin": "INF200K01LJ4",
+		"amfiCode": "100641",
+		"assetClassID": "2",
+		"subAssetClassID": "2",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "SBI Small Cap Fund",
+		"isin": "INF200K01T28",
+		"amfiCode": "125494",
+		"assetClassID": "3",
+		"subAssetClassID": "13",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Tata Equity PE Fund - Regular Plan",
+		"isin": "INF277K01451",
+		"amfiCode": "101672",
+		"assetClassID": "3",
+		"subAssetClassID": "12",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "Tata Liquid Fund - Regular Plan",
+		"isin": "INF277K01LQ7",
+		"amfiCode": "101847",
+		"assetClassID": "1",
+		"subAssetClassID": "1",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "UTI Liquid Cash Fund - Regular Plan",
+		"isin": "INF789F01BC2",
+		"amfiCode": "102009",
+		"assetClassID": "1",
+		"subAssetClassID": "1",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	},
+	{
+		"schemeName": "UTI Money Market Fund - Regular Plan",
+		"isin": "INF789F01BF5",
+		"amfiCode": "100723",
+		"assetClassID": "2",
+		"subAssetClassID": "2",
+		"startDate": "2019-03-01",
+        "endDate": "2020-03-31"
+	}
+	
+]
+ 
