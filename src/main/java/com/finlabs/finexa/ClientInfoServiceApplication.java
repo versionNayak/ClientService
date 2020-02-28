@@ -7,12 +7,10 @@ import java.util.TimeZone;
 import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-import org.apache.coyote.http11.AbstractHttp11Protocol;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 import org.hibernate.Session;
@@ -24,8 +22,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomizer;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
-//import org.springframework.boot.context.embedded.FilterRegistrationBean;
-import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
@@ -78,9 +75,9 @@ import com.finlabs.finexa.service.AdvisorService;
 @SpringBootApplication
 @EnableAutoConfiguration
 public class ClientInfoServiceApplication extends SpringBootServletInitializer {
-	
+
 	private EntityManager entityManager;
-	
+
 	@Autowired
 	private AdvisorService advisorService;
 
@@ -359,20 +356,20 @@ public class ClientInfoServiceApplication extends SpringBootServletInitializer {
 	 * return new CacheInfoService(); }
 	 */
 
-	@Bean
-	public TomcatEmbeddedServletContainerFactory tomcatEmbedded() {
-
-		TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory();
-
-		tomcat.addConnectorCustomizers((TomcatConnectorCustomizer) connector -> {
-			if ((connector.getProtocolHandler() instanceof AbstractHttp11Protocol<?>)) {
-				// -1 means unlimited
-				((AbstractHttp11Protocol<?>) connector.getProtocolHandler()).setMaxSwallowSize(-1);
-			}
-		});
-
-		return tomcat;
-
-	}
+	/*
+	 * @Bean public TomcatEmbeddedServletContainerFactory tomcatEmbedded() {
+	 * 
+	 * TomcatEmbeddedServletContainerFactory tomcat = new
+	 * TomcatEmbeddedServletContainerFactory();
+	 * 
+	 * tomcat.addConnectorCustomizers((TomcatConnectorCustomizer) connector -> { if
+	 * ((connector.getProtocolHandler() instanceof AbstractHttp11Protocol<?>)) { //
+	 * -1 means unlimited ((AbstractHttp11Protocol<?>)
+	 * connector.getProtocolHandler()).setMaxSwallowSize(-1); } });
+	 * 
+	 * return tomcat;
+	 * 
+	 * }
+	 */
 
 }
