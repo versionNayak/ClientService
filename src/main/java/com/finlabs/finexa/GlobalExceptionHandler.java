@@ -1,6 +1,5 @@
 package com.finlabs.finexa;
 
-import org.apache.tomcat.util.http.fileupload.FileUploadBase.SizeLimitExceededException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -57,14 +56,16 @@ public class GlobalExceptionHandler {
 	    if( th instanceof IllegalStateException )
 	    {
 	        Throwable cause = th.getCause();
-	        if(cause instanceof  SizeLimitExceededException)
-	        {
-	            SizeLimitExceededException ex = (SizeLimitExceededException) cause;
-	            ErrorDTO errorResponse = new ErrorDTO();
-	            errorResponse.setErrorCode(String.valueOf(HttpStatus.PAYLOAD_TOO_LARGE.value()));
-	            errorResponse.setErrorMessage("Total size of file(s) should not be more than " + (int)(ex.getPermittedSize()/Math.pow(2, 20)) + " MB");
-	            return new ResponseEntity<ErrorDTO>(errorResponse, HttpStatus.OK);
-	        }
+			/*
+			 * if(cause instanceof SizeLimitExceededException) { SizeLimitExceededException
+			 * ex = (SizeLimitExceededException) cause; ErrorDTO errorResponse = new
+			 * ErrorDTO();
+			 * errorResponse.setErrorCode(String.valueOf(HttpStatus.PAYLOAD_TOO_LARGE.value(
+			 * ))); errorResponse.
+			 * setErrorMessage("Total size of file(s) should not be more than " +
+			 * (int)(ex.getPermittedSize()/Math.pow(2, 20)) + " MB"); return new
+			 * ResponseEntity<ErrorDTO>(errorResponse, HttpStatus.OK); }
+			 */
 	    }
 	    ErrorDTO errorResponse = new ErrorDTO();
         errorResponse.setErrorCode(String.valueOf(HttpStatus.PAYLOAD_TOO_LARGE.value()));
